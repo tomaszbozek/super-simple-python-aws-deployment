@@ -2,7 +2,7 @@ from flask import Flask
 
 application = Flask(__name__)
 
-@application.route('/')
+@application.route('/welcome')
 def home():
     return "Hello, Elastic Beanstalk!"
 
