@@ -3,6 +3,11 @@
 ## Requirements
 - python 3.12
 - aws account
+
+## Description
+- In file infra -> cloudformation -> template.json I copied beanstalk infrastructure as cloud formation template that can be used to recreate environemnt
+- In case of doing it manually it can be partially done via this tutorial e.g. roles I copied from there: 
+https://bentranz.medium.com/deploy-dockerized-application-to-aws-elastic-beanstalk-f8a3cf2944a7
   
 ## Problems
 - AWS beanstalk changed to templates deployment usage: https://repost.aws/questions/QUcX9TipxqSGeM5G7RORmqoQ/new-account-recently-created-unable-to-create-environments-on-elastic-beanstalk-launch-configuration-error
